@@ -1,7 +1,3 @@
-import pytest
-import requests
-from constants import BASE_URL, HEADERS, REGISTER_ENDPOINT, LOGIN_ENDPOINT
-
 
 class TestAuthAPI:
     def test_login_wrong_password(self, api_manager, test_user):

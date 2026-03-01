@@ -24,8 +24,7 @@ class CustomRequester:
         if need_logging:
             self.log_request_and_response(response)
 
-        if response.status_code != expected_status:
-            print(f"Status {response.status_code} != expected {expected_status}")
+        assert response.status_code == expected_status, f"Status {response.status_code} != expected {expected_status}"
 
         return response
 

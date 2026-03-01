@@ -1,9 +1,3 @@
-import pytest
-import requests
-from constants import BASE_URL, HEADERS, REGISTER_ENDPOINT,  LOGIN_ENDPOINT
-from custom_requester.custom_requester import CustomRequester
-from api.api_manager import ApiManager
-
 
 class TestAuthAPI:
     def test_register_user(self, api_manager, test_user):
@@ -18,7 +12,7 @@ class TestAuthAPI:
         response = api_manager.auth_api.login_user(
             email=registered_user["email"],
             password=registered_user["password"],
-            expected_status=200
+            expected_status=201
         )
         response_data = response.json()
 

@@ -2,6 +2,7 @@ import random
 import string
 from faker import Faker
 faker = Faker()
+import random
 
 class DataGenerator:
 
@@ -49,3 +50,16 @@ class DataGenerator:
             "published": random.choice([True, False]),
             "genreId": random.randint(1, 5)
         }
+
+    @staticmethod
+    def generate_test_user():
+        password = "Test1234"
+        return {
+            "email": f"test{random.randint(1000, 9999)}@example.com",
+            "fullName": "Test User",
+            "password": password,
+            "passwordRepeat": password
+        }
+
+
+
