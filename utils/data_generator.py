@@ -2,7 +2,6 @@ import random
 import string
 from faker import Faker
 faker = Faker()
-import random
 
 class DataGenerator:
 
@@ -48,7 +47,7 @@ class DataGenerator:
             "description": faker.sentence(nb_words=4),
             "location": random.choice(["MSK", "SPB"]),
             "published": random.choice([True, False]),
-            "genreId": random.randint(1, 5)
+            "genreId": random.randint(1, 4)
         }
 
     @staticmethod
