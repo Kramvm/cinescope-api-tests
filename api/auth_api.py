@@ -14,7 +14,7 @@ class AuthAPI(CustomRequester):
             expected_status=expected_status
         )
 
-    def login_user(self, email, password, expected_status=200):
+    def login_user(self, email, password, expected_status=201):
         login_data = {"email": email, "password": password}
         return self.send_request(
             method="POST",
@@ -25,7 +25,7 @@ class AuthAPI(CustomRequester):
 
     def authenticate(self, user_creds):
         email, password = user_creds
-        response = self.login_user(email, password)
+        response = self.login_user(email, password, expected_status=200)
         if response.status_code == 200:
             token = response.json()["accessToken"]
             self.session.headers["Authorization"] = f"Bearer {token}"
