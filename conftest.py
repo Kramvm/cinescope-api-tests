@@ -1,12 +1,15 @@
 import pytest
 import requests
+from sqlalchemy.orm import Session
 from constants import BASE_URL
 from entities.user import User
 from resources.user_creds import SuperAdminCreds, AdminCreds
 from roles import Roles
 from utils.data_generator import DataGenerator
 from api.api_manager import ApiManager
-from models.base_models import TestUser
+from db_models.base_models import TestUser
+from db_requester.db_client import get_db_session
+from db_requester.db_helpers import DBHelper
 
 @pytest.fixture(scope="session")
 def session():
@@ -124,3 +127,24 @@ def admin(user_session):
     new_session.session.headers["Authorization"] = f"Bearer {token}"
 
     return admin
+
+
+@pytest.fixture(scope="module")
+def db_session() -> Session:
+    session = get_db_session()
+    yield session
+    session.close()
+
+
+@pytest.fixture(scope="function")
+def db_helper(db_session) -> DBHelper:
+    yield DBHelper(db_session)
+    db_session.rollback()
+
+
+@pytest.fixture(scope="function")
+def created_test_user(db_helper):
+    user = db_helper.create_test_user(DataGenerator.generate_user_data())
+    yield user
+    if db_helper.get_user_by_id(user.id):
+        db_helper.delete_user(user)

@@ -5,13 +5,40 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8588aecd-d4f8-4497-b887-aa2535c91eec" name="Changes" comment="feat: MoviesApi full CRUD tests ✅&#10;&#10;✅ GET /movies (пагинация)&#10;✅ POST /movies → 201 + ID&#10;✅ DELETE /movies/{id} → 200  &#10;✅ admin_movies_api fixture (auth)&#10;✅ 4/4 GREEN тесты!">
+      <change afterPath="$PROJECT_DIR$/db_models/movies.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db_models/pydan.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db_models/user.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db_requester/db_client.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db_requester/db_client_t1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db_requester/db_helpers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db_requester/sql_alchemy_client_simple_example.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/movie_models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/db_creds.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_services/service_what_is_today.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/api/test_mock_services.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/db/test_movie.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test_wire_mock.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Cinescope.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Cinescope.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PydanticExamples/test_pydantic.py" beforeDir="false" afterPath="$PROJECT_DIR$/PydanticExamples/test_pydantic.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/annotations_practice.py" beforeDir="false" afterPath="$PROJECT_DIR$/annotations_practice.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/api_manager.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/api_manager.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/movies_api.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/movies_api.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/user_api.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/user_api.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/conftest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/custom_requester/custom_requester.py" beforeDir="false" afterPath="$PROJECT_DIR$/custom_requester/custom_requester.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kwargs.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/api/test_auth.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/api/test_auth.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/api/test_auth_negative.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/api/test_auth_negative.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/constants.py" beforeDir="false" afterPath="$PROJECT_DIR$/constants.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/entities/user.py" beforeDir="false" afterPath="$PROJECT_DIR$/entities/user.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/enums/hosts.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/base_models.py" beforeDir="false" afterPath="$PROJECT_DIR$/db_models/base_models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/conf2.py" beforeDir="false" afterPath="$PROJECT_DIR$/db_models/conf2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/pydan.py" beforeDir="false" afterPath="$PROJECT_DIR$/db_models/movie.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/user_creds.py" beforeDir="false" afterPath="$PROJECT_DIR$/resources/user_creds.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/roles.py" beforeDir="false" afterPath="$PROJECT_DIR$/roles.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/api/test_movies.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/api/test_movies.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/api/test_other_api.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/api/test_other_api.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/ui/test_login_page.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/ui/test_registration_page.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/utils/data_generator.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/data_generator.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -52,63 +79,86 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;Python tests.Python tests for tests.api.test_auth.TestAuthAPI.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for tests.api.test_auth.TestAuthAPI.test_register_and_login_user.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for tests.api.test_auth_api.TestAuthAPI.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for tests.api.test_auth_negative.TestAuthAPI.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for tests.api.test_movies.TestMovies.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for tests.api.test_movies.TestMoviesApi.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for tests.api.test_movies.TestMoviesApi.test_create_invalid_data.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for tests.api.test_movies.TestMoviesApi.test_crud_operations.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for tests.api.test_movies.TestMoviesApi.test_get_movie_by_id.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for tests.api.test_movies.TestMoviesApi.test_get_movies_list.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for tests.api.test_movies.TestMoviesApi.test_get_movies_pagination.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for tests.api.test_movies.TestMoviesApi.test_negative_update_movie.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for tests.api.test_movies.TestMoviesApi.test_update_movie.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for tests.api.test_movies.Test_gety.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for tests.api.test_movies.test_movies_filter_title.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for tests.api.test_movies.test_movies_get_list.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in test_auth.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python.kwargs.executor&quot;: &quot;Debug&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python tests.Python tests for PydanticExamples.test_pydantic.test_user_data.executor": "Run",
+    "Python tests.Python tests for pa.TestParametrizedClass.executor": "Run",
+    "Python tests.Python tests for test_user.TestUser.test_create_user_admin.test_multiply_by_two.executor": "Run",
+    "Python tests.Python tests for tests.api.test_auth.TestAuthAPI.executor": "Run",
+    "Python tests.Python tests for tests.api.test_auth.TestAuthAPI.test_register_and_login_user.executor": "Run",
+    "Python tests.Python tests for tests.api.test_auth_api.TestAuthAPI.executor": "Run",
+    "Python tests.Python tests for tests.api.test_auth_negative.TestAuthAPI.executor": "Run",
+    "Python tests.Python tests for tests.api.test_movies.TestMovies.executor": "Run",
+    "Python tests.Python tests for tests.api.test_movies.TestMoviesApi.executor": "Run",
+    "Python tests.Python tests for tests.api.test_movies.TestMoviesApi.test_create_invalid_data.executor": "Run",
+    "Python tests.Python tests for tests.api.test_movies.TestMoviesApi.test_crud_operations.executor": "Run",
+    "Python tests.Python tests for tests.api.test_movies.TestMoviesApi.test_delete_movie.executor": "Run",
+    "Python tests.Python tests for tests.api.test_movies.TestMoviesApi.test_get_movie_by_id.executor": "Run",
+    "Python tests.Python tests for tests.api.test_movies.TestMoviesApi.test_get_movies_list.executor": "Run",
+    "Python tests.Python tests for tests.api.test_movies.TestMoviesApi.test_get_movies_pagination.executor": "Run",
+    "Python tests.Python tests for tests.api.test_movies.TestMoviesApi.test_negative_update_movie.executor": "Run",
+    "Python tests.Python tests for tests.api.test_movies.TestMoviesApi.test_update_movie.executor": "Run",
+    "Python tests.Python tests for tests.api.test_movies.TestMoviesFilter.executor": "Run",
+    "Python tests.Python tests for tests.api.test_movies.Test_gety.executor": "Run",
+    "Python tests.Python tests for tests.api.test_movies.test_movies_filter.executor": "Run",
+    "Python tests.Python tests for tests.api.test_movies.test_movies_filter_title.executor": "Run",
+    "Python tests.Python tests for tests.api.test_movies.test_movies_get_list.executor": "Run",
+    "Python tests.Python tests for tests.api.test_other_api.TestAccountTransactionTemplate.executor": "Run",
+    "Python tests.Python tests for tests.api.test_user.TestUser.executor": "Run",
+    "Python tests.Python tests for tests.api.test_user.TestUser.test_create_user.executor": "Run",
+    "Python tests.Python tests for tests.api.test_user.TestUser.test_create_user_admin.executor": "Run",
+    "Python tests.Python tests for tests.api.test_user.TestUser.test_create_user_common_user.executor": "Run",
+    "Python tests.Python tests for tests.api.test_user.TestUser.test_get_user_by_id_common_user.executor": "Run",
+    "Python tests.Python tests for tests.api.test_user.test_multiply_by_two.executor": "Run",
+    "Python tests.Python tests for tests.db.test_movie.TestMovieDB.executor": "Run",
+    "Python tests.Python tests for tests.test_wire_mock.test_wiremock.executor": "Run",
+    "Python tests.Python tests in test_auth.py.executor": "Run",
+    "Python.annotations_practice.executor": "Run",
+    "Python.db_client_t1 (1).executor": "Run",
+    "Python.db_client_tests.executor": "Run",
+    "Python.kwargs.executor": "Debug",
+    "Python.sql_alchemy_client_simple_example.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "ai.playground.ignore.import.keys.banner.in.settings": "true",
+    "git-widget-placeholder": "master",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "reference.idesettings.debugger.python",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
-  <component name="RunManager" selected="Python tests.Python tests for tests.api.test_auth_negative.TestAuthAPI">
-    <configuration name="Python tests for tests.api.test_auth.TestAuthAPI" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Vadim\PycharmProjects\cinescope-api-tests\db_requester" />
+      <recent name="C:\Users\Vadim\PycharmProjects\cinescope-api-tests\models" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python tests.Python tests for tests.api.test_movies.TestMoviesApi">
+    <configuration name="db_client_t1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Cinescope" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/db_client" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;tests.api.test_auth.TestAuthAPI&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Python tests for tests.api.test_auth_negative.TestAuthAPI" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="Cinescope" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;tests.api.test_auth_negative.TestAuthAPI&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="RUN_TOOL" value="" />
+      <option name="SCRIPT_NAME" value="C:\Users\Vadim\PycharmProjects\cinescope-api-tests\db_requester\db_client_t1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
     <configuration name="Python tests for tests.api.test_movies.TestMoviesApi" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
@@ -121,12 +171,13 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="RUN_TOOL" value="" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;tests.api.test_movies.TestMoviesApi&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for tests.api.test_movies.TestMoviesApi.test_negative_update_movie" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for tests.api.test_movies.TestMoviesApi.test_get_movies_list" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="Cinescope" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -136,12 +187,13 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="RUN_TOOL" value="" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;tests.api.test_movies.TestMoviesApi.test_negative_update_movie&quot;" />
+      <option name="_new_target" value="&quot;tests.api.test_movies.TestMoviesApi.test_get_movies_list&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for tests.api.test_movies.TestMoviesApi.test_update_movie" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for tests.api.test_other_api.TestAccountTransactionTemplate" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="Cinescope" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -151,25 +203,59 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="RUN_TOOL" value="" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;tests.api.test_movies.TestMoviesApi.test_update_movie&quot;" />
+      <option name="_new_target" value="&quot;tests.api.test_other_api.TestAccountTransactionTemplate&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for tests.db.test_movie.TestMovieDB" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="Cinescope" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="RUN_TOOL" value="" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;tests.db.test_movie.TestMovieDB&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for tests.test_wire_mock.test_wiremock" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="Cinescope" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="RUN_TOOL" value="" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;tests.test_wire_mock.test_wiremock&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Python tests for tests.api.test_auth_negative.TestAuthAPI" />
         <item itemvalue="Python tests.Python tests for tests.api.test_movies.TestMoviesApi" />
-        <item itemvalue="Python tests.Python tests for tests.api.test_auth.TestAuthAPI" />
-        <item itemvalue="Python tests.Python tests for tests.api.test_movies.TestMoviesApi.test_negative_update_movie" />
-        <item itemvalue="Python tests.Python tests for tests.api.test_movies.TestMoviesApi.test_update_movie" />
+        <item itemvalue="Python tests.Python tests for tests.api.test_movies.TestMoviesApi.test_get_movies_list" />
+        <item itemvalue="Python tests.Python tests for tests.api.test_other_api.TestAccountTransactionTemplate" />
+        <item itemvalue="Python tests.Python tests for tests.test_wire_mock.test_wiremock" />
+        <item itemvalue="Python tests.Python tests for tests.db.test_movie.TestMovieDB" />
       </list>
     </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-4e2b1448bda8-9a97661f3031-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-252.27397.106" />
+        <option value="bundled-python-sdk-2653e85de345-6d6dccd035ac-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-253.31033.139" />
       </set>
     </attachedChunks>
   </component>
@@ -180,6 +266,19 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1769983822863</updated>
+      <workItem from="1772786057563" duration="92000" />
+      <workItem from="1772788572637" duration="5884000" />
+      <workItem from="1773147974745" duration="8252000" />
+      <workItem from="1773232751446" duration="8862000" />
+      <workItem from="1773299019057" duration="14000" />
+      <workItem from="1773300594801" duration="8000" />
+      <workItem from="1774513925771" duration="13107000" />
+      <workItem from="1774614282044" duration="10000" />
+      <workItem from="1774854208202" duration="263000" />
+      <workItem from="1774966419598" duration="5157000" />
+      <workItem from="1775027102943" duration="12311000" />
+      <workItem from="1775113895114" duration="3764000" />
+      <workItem from="1775207715942" duration="1213000" />
     </task>
     <task id="LOCAL-00001" summary="feat: MoviesApi full CRUD tests ✅&#10;&#10;✅ GET /movies (пагинация)&#10;✅ POST /movies → 201 + ID&#10;✅ DELETE /movies/{id} → 200  &#10;✅ admin_movies_api fixture (auth)&#10;✅ 4/4 GREEN тесты!">
       <option name="closed" value="true" />
@@ -192,9 +291,44 @@
     <option name="localTasksCounter" value="2" />
     <servers />
   </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="New" />
     <MESSAGE value="feat: MoviesApi full CRUD tests ✅&#10;&#10;✅ GET /movies (пагинация)&#10;✅ POST /movies → 201 + ID&#10;✅ DELETE /movies/{id} → 200  &#10;✅ admin_movies_api fixture (auth)&#10;✅ 4/4 GREEN тесты!" />
     <option name="LAST_COMMIT_MESSAGE" value="feat: MoviesApi full CRUD tests ✅&#10;&#10;✅ GET /movies (пагинация)&#10;✅ POST /movies → 201 + ID&#10;✅ DELETE /movies/{id} → 200  &#10;✅ admin_movies_api fixture (auth)&#10;✅ 4/4 GREEN тесты!" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/api/user_api.py</url>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/db_requester/db_client_t1.py</url>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/cinescope_api_tests$db_client_t1__1_.coverage" NAME="db_client_t1 (1) Coverage Results" MODIFIED="1774970809751" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/db_client" />
+    <SUITE FILE_PATH="coverage/cinescope_api_tests$annotations_practice.coverage" NAME="annotations_practice Coverage Results" MODIFIED="1774516974603" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/cinescope_api_tests$sql_alchemy_client_simple_example.coverage" NAME="sql_alchemy_client_simple_example Coverage Results" MODIFIED="1775030229920" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/db_requester" />
+    <SUITE FILE_PATH="coverage/cinescope_api_tests$.coverage" NAME=" Coverage Results" MODIFIED="1775036968810" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/cinescope_api_tests$db_client_tests.coverage" NAME="db_client_tests Coverage Results" MODIFIED="1774970448846" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/db_client" />
   </component>
 </project>
