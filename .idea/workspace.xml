@@ -5,41 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8588aecd-d4f8-4497-b887-aa2535c91eec" name="Changes" comment="feat: MoviesApi full CRUD tests ✅&#10;&#10;✅ GET /movies (пагинация)&#10;✅ POST /movies → 201 + ID&#10;✅ DELETE /movies/{id} → 200  &#10;✅ admin_movies_api fixture (auth)&#10;✅ 4/4 GREEN тесты!">
-      <change afterPath="$PROJECT_DIR$/db_models/movies.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db_models/pydan.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db_models/user.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db_requester/db_client.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db_requester/db_client_t1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db_requester/db_helpers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db_requester/sql_alchemy_client_simple_example.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/movie_models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/db_creds.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_services/service_what_is_today.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/api/test_mock_services.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/db/test_movie.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/test_wire_mock.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Cinescope.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Cinescope.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PydanticExamples/test_pydantic.py" beforeDir="false" afterPath="$PROJECT_DIR$/PydanticExamples/test_pydantic.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/annotations_practice.py" beforeDir="false" afterPath="$PROJECT_DIR$/annotations_practice.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/api_manager.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/api_manager.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/movies_api.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/movies_api.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/user_api.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/user_api.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/conftest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/constants.py" beforeDir="false" afterPath="$PROJECT_DIR$/constants.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/entities/user.py" beforeDir="false" afterPath="$PROJECT_DIR$/entities/user.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/enums/hosts.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/base_models.py" beforeDir="false" afterPath="$PROJECT_DIR$/db_models/base_models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/conf2.py" beforeDir="false" afterPath="$PROJECT_DIR$/db_models/conf2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/pydan.py" beforeDir="false" afterPath="$PROJECT_DIR$/db_models/movie.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/user_creds.py" beforeDir="false" afterPath="$PROJECT_DIR$/resources/user_creds.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/roles.py" beforeDir="false" afterPath="$PROJECT_DIR$/roles.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db_models/movie.py" beforeDir="false" afterPath="$PROJECT_DIR$/db_models/movie.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/movie_models.py" beforeDir="false" afterPath="$PROJECT_DIR$/models/movie_models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/api/test_movies.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/api/test_movies.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/api/test_other_api.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/api/test_other_api.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/ui/test_login_page.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/ui/test_registration_page.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/data_generator.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/data_generator.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,57 +48,57 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "Python tests.Python tests for PydanticExamples.test_pydantic.test_user_data.executor": "Run",
-    "Python tests.Python tests for pa.TestParametrizedClass.executor": "Run",
-    "Python tests.Python tests for test_user.TestUser.test_create_user_admin.test_multiply_by_two.executor": "Run",
-    "Python tests.Python tests for tests.api.test_auth.TestAuthAPI.executor": "Run",
-    "Python tests.Python tests for tests.api.test_auth.TestAuthAPI.test_register_and_login_user.executor": "Run",
-    "Python tests.Python tests for tests.api.test_auth_api.TestAuthAPI.executor": "Run",
-    "Python tests.Python tests for tests.api.test_auth_negative.TestAuthAPI.executor": "Run",
-    "Python tests.Python tests for tests.api.test_movies.TestMovies.executor": "Run",
-    "Python tests.Python tests for tests.api.test_movies.TestMoviesApi.executor": "Run",
-    "Python tests.Python tests for tests.api.test_movies.TestMoviesApi.test_create_invalid_data.executor": "Run",
-    "Python tests.Python tests for tests.api.test_movies.TestMoviesApi.test_crud_operations.executor": "Run",
-    "Python tests.Python tests for tests.api.test_movies.TestMoviesApi.test_delete_movie.executor": "Run",
-    "Python tests.Python tests for tests.api.test_movies.TestMoviesApi.test_get_movie_by_id.executor": "Run",
-    "Python tests.Python tests for tests.api.test_movies.TestMoviesApi.test_get_movies_list.executor": "Run",
-    "Python tests.Python tests for tests.api.test_movies.TestMoviesApi.test_get_movies_pagination.executor": "Run",
-    "Python tests.Python tests for tests.api.test_movies.TestMoviesApi.test_negative_update_movie.executor": "Run",
-    "Python tests.Python tests for tests.api.test_movies.TestMoviesApi.test_update_movie.executor": "Run",
-    "Python tests.Python tests for tests.api.test_movies.TestMoviesFilter.executor": "Run",
-    "Python tests.Python tests for tests.api.test_movies.Test_gety.executor": "Run",
-    "Python tests.Python tests for tests.api.test_movies.test_movies_filter.executor": "Run",
-    "Python tests.Python tests for tests.api.test_movies.test_movies_filter_title.executor": "Run",
-    "Python tests.Python tests for tests.api.test_movies.test_movies_get_list.executor": "Run",
-    "Python tests.Python tests for tests.api.test_other_api.TestAccountTransactionTemplate.executor": "Run",
-    "Python tests.Python tests for tests.api.test_user.TestUser.executor": "Run",
-    "Python tests.Python tests for tests.api.test_user.TestUser.test_create_user.executor": "Run",
-    "Python tests.Python tests for tests.api.test_user.TestUser.test_create_user_admin.executor": "Run",
-    "Python tests.Python tests for tests.api.test_user.TestUser.test_create_user_common_user.executor": "Run",
-    "Python tests.Python tests for tests.api.test_user.TestUser.test_get_user_by_id_common_user.executor": "Run",
-    "Python tests.Python tests for tests.api.test_user.test_multiply_by_two.executor": "Run",
-    "Python tests.Python tests for tests.db.test_movie.TestMovieDB.executor": "Run",
-    "Python tests.Python tests for tests.test_wire_mock.test_wiremock.executor": "Run",
-    "Python tests.Python tests in test_auth.py.executor": "Run",
-    "Python.annotations_practice.executor": "Run",
-    "Python.db_client_t1 (1).executor": "Run",
-    "Python.db_client_tests.executor": "Run",
-    "Python.kwargs.executor": "Debug",
-    "Python.sql_alchemy_client_simple_example.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "ai.playground.ignore.import.keys.banner.in.settings": "true",
-    "git-widget-placeholder": "master",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "reference.idesettings.debugger.python",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Python tests.Python tests for PydanticExamples.test_pydantic.test_user_data.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for pa.TestParametrizedClass.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_user.TestUser.test_create_user_admin.test_multiply_by_two.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for tests.api.test_auth.TestAuthAPI.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for tests.api.test_auth.TestAuthAPI.test_register_and_login_user.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for tests.api.test_auth_api.TestAuthAPI.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for tests.api.test_auth_negative.TestAuthAPI.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for tests.api.test_movies.TestMovies.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for tests.api.test_movies.TestMoviesApi.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for tests.api.test_movies.TestMoviesApi.test_create_invalid_data.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for tests.api.test_movies.TestMoviesApi.test_crud_operations.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for tests.api.test_movies.TestMoviesApi.test_delete_movie.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for tests.api.test_movies.TestMoviesApi.test_get_movie_by_id.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for tests.api.test_movies.TestMoviesApi.test_get_movies_list.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for tests.api.test_movies.TestMoviesApi.test_get_movies_pagination.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for tests.api.test_movies.TestMoviesApi.test_negative_update_movie.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for tests.api.test_movies.TestMoviesApi.test_update_movie.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for tests.api.test_movies.TestMoviesFilter.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for tests.api.test_movies.Test_gety.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for tests.api.test_movies.test_movies_filter.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for tests.api.test_movies.test_movies_filter_title.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for tests.api.test_movies.test_movies_get_list.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for tests.api.test_other_api.TestAccountTransactionTemplate.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for tests.api.test_user.TestUser.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for tests.api.test_user.TestUser.test_create_user.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for tests.api.test_user.TestUser.test_create_user_admin.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for tests.api.test_user.TestUser.test_create_user_common_user.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for tests.api.test_user.TestUser.test_get_user_by_id_common_user.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for tests.api.test_user.test_multiply_by_two.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for tests.db.test_movie.TestMovieDB.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for tests.test_wire_mock.test_wiremock.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in test_auth.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python.annotations_practice.executor&quot;: &quot;Run&quot;,
+    &quot;Python.db_client_t1 (1).executor&quot;: &quot;Run&quot;,
+    &quot;Python.db_client_tests.executor&quot;: &quot;Run&quot;,
+    &quot;Python.kwargs.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.sql_alchemy_client_simple_example.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;ai.playground.ignore.import.keys.banner.in.settings&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.idesettings.debugger.python&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Vadim\PycharmProjects\cinescope-api-tests\db_requester" />

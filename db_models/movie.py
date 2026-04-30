@@ -1,4 +1,4 @@
-from sqlalchemy import Column, String, Integer, Boolean, DateTime
+from sqlalchemy import Column, String, Integer, Boolean, DateTime, Float, func
 from sqlalchemy.orm import declarative_base
 from typing import Dict, Any
 
@@ -8,14 +8,16 @@ Base = declarative_base()
 class MovieDBModel(Base):
     __tablename__ = 'movies'
 
-    id = Column(String, primary_key=True)
-    name = Column(String)
-    price = Column(Integer)
-    description = Column(String)
-    location = Column(String)
-    published = Column(Boolean)
-    genre_id = Column(Integer)
-    created_at = Column(DateTime)
+    id = Column(Integer, primary_key=True, autoincrement=True)
+    name = Column(String, nullable=False)
+    price = Column(Integer, nullable=False)
+    description = Column(String, nullable=False)
+    image_url = Column(String, nullable=True)
+    location = Column(String, nullable=False)
+    published = Column(Boolean, nullable=False)
+    rating = Column(Float, nullable=False, default=0)
+    genre_id = Column(Integer, nullable=False)
+    created_at = Column(DateTime, nullable=False, server_default=func.now())
 
     def to_dict(self) -> Dict[str, Any]:
         return {
@@ -23,8 +25,10 @@ class MovieDBModel(Base):
             'name': self.name,
             'price': self.price,
             'description': self.description,
+            'image_url': self.image_url,
             'location': self.location,
             'published': self.published,
+            'rating': self.rating,
             'genre_id': self.genre_id,
             'created_at': self.created_at
         }
